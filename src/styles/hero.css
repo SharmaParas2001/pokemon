@@ -1,0 +1,53 @@
+.hero {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    max-width: 500px;
+}
+
+.head {
+    font-size: 48px;
+    margin: 0;
+}
+
+.highlight {
+    color: #ff6347;
+}
+
+.para {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.pikachu .pic {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pikachu .pic {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+.bg {
+    background-color: #f8f8f8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.list-ele {
+    cursor: pointer;
+}

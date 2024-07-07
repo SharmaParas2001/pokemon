@@ -1,0 +1,65 @@
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.poki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat {
+    text-align: center;
+}
+
+.rounded-border {
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.green {
+    color: #7ac74c;
+}
+
+.blue {
+    color: #6390f0;
+}
+
+.img-poki {
+    width: 100px;
+    height: 100px;
+}
